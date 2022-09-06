@@ -1,0 +1,79 @@
+@media screen and (max-width: 479px) {
+
+    
+    body{
+        width: 150px;
+        flex-direction: column;
+    }
+    
+    header{
+        background-color: #141f40;
+        height: 100PX;
+    }
+    
+    main{
+        flex-direction: column;
+        height: 250px;
+        background-color: pink;
+    }
+  /*
+   これはあとで戻す
+    .box-left{
+        height: 100PX;
+        background-color: #80bfa8;
+        max-width: 100%;
+    }
+  /*
+   無色のコンテンツはコメントアウトする
+
+    .box-right{
+        width: 200px;
+        height: 150px;   
+    }
+    
+    .box-right-top{
+        width: 200px;
+        height: 150px;
+    }
+    
+    .box-right-top-left{
+        width: 125px;
+        height: 150px;
+    }
+    */
+    
+    /*
+    .box-right-top-left-top{
+        height: 100PX;
+        background-color :#dbd400;
+        max-width: 100%;
+    }
+    
+    .box-right-top-left-bottom{
+        height: 100px;
+        background-color :#0093b7;
+        max-width: 100%;
+    }
+    
+    .box-right-top-right{
+        height: 100PX;
+        background-color :#ff9e6b;
+        max-width: 100%;
+    }
+    
+    .box-right-bottom{
+        height: 100px;  
+        background-color: #8c2727;
+        max-width: 100%;
+    }
+    */
+
+    footer{
+        background-color: #d98d30;
+        height: 100PX;
+        max-width: 100%;
+    }
+    
+   
+    
+}

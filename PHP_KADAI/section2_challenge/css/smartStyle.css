@@ -1,0 +1,155 @@
+@media screen and (max-width: 767px) {
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+     }
+    
+    header{
+        background-color: #141f40;
+        height: 100PX;
+        width: 300px;
+    
+    }
+    
+    main{
+        width: 300px;
+    }
+    
+    .box-left{
+        float: left;
+        width: 100px;
+        height: 250px;
+        background-color: #80bfa8;
+    }
+    
+    .box-right{
+        width: 200px;
+        height: 150px;   
+        float: left;
+    }
+    
+    .box-right-top{
+        width: 200px;
+        height: 150px;
+        display: flex;
+    }
+    
+    .box-right-top-left{
+        width: 125px;
+        height: 150px;
+        float:left;
+    
+    }
+    
+    .box-right-top-left-top{
+        width: 125px;
+        height: 50px;
+        background-color :#dbd400;
+        float: top;
+    }
+    
+    .box-right-top-left-bottom{
+        width: 125px;
+        height: 100px;
+        background-color :#0093b7;
+        float: bottom;
+    }
+    
+    .box-right-top-right{
+        width: 75px;
+        height: 150px;
+        background-color :#ff9e6b;
+        float: left;
+    }
+    
+    .box-right-bottom{
+        width: 200px;
+        height: 100px;  
+        background-color: #8c2727;
+    }
+    
+    footer{
+        background-color: #d98d30;
+        height: 100PX;
+        width: 300px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 479px) {
+
+    body{
+        width: 150px;
+        flex-direction: column;
+    }
+    
+    header{
+        background-color: #141f40;
+        height: 100PX;
+        
+        width: 150px;
+    }
+    
+    main{
+        flex-direction: column;
+        height: 250px;
+        width: 150px;
+        flex-wrap: wrap;
+    }
+   .box-left{
+        height: 100PX;
+        width: 150px;
+    }
+
+    .box-right{
+        width: 150px;
+        height: 100px;
+        background-color : ;
+        float:right
+
+    }
+    
+    .box-right-top{
+        width: 150px;
+        height: 100px;
+ 
+    }
+    
+    .box-right-top-left{
+        width: 150px;
+        height: 100px;
+    }
+    .box-right-top-left-top{
+        height: 100PX;
+        width: 150px;
+    }
+    
+    .box-right-top-left-bottom{
+        height: 100px;
+        width: 150px;
+    }
+    
+    .box-right-top-right{
+        height: 100PX;
+        width: 150px;
+        background-color :#ff9e6b;
+    }
+    
+    .box-right-bottom{
+        height: 100px;  
+        background-color: #8c2727;
+        width: 150px;
+    }
+
+    footer{
+        background-color: #d98d30;
+        height: 100PX;
+        width: 150px;
+        position: absolute;
+    }
+    
+   
+}
