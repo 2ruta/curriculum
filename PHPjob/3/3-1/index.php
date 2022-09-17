@@ -15,4 +15,6 @@ PHPの
     $message = "Hello World" ;
     echo $message ; 
     ?>
+
+    
 </html>
