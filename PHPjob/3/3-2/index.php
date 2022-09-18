@@ -5,11 +5,30 @@
 //3の倍数でも、5の倍数でもない場合は、その数を出力します。
 //それを1〜100まで実施してください。
 
-$num=1;
+for($i=1;$i<=100;$i++){
 
-while($num<=100){
-    echo $num;
-    echo "<br>";
-    $num++;
+    switch($i){
+        case($i%3==0&&$i%5==0):
+            print 'FizzBuzz!';
+            echo "<br>";
+            break;
+
+        case($i%3==0):
+            print 'Fizz!';
+            echo "<br>";
+            break;
+        case($i%5==0):
+            print 'Buzz!';
+            echo "<br>";
+            break;
+
+    
+        default:
+        echo $i;
+        echo "<br>";
+
+    }
 }
+
 ?>
+
