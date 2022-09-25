@@ -13,18 +13,11 @@
     function calculatePrice(int $fruits, int $quantity) {
         return $fruits*$quantity;
     }
-
-
-
-    echo calculatePrice($fruits["りんご"],$quantity["りんご"]);
     
     echo "<br>";
-
-
    foreach($fruits as $key => $value) {
-   echo calculatePrice($fruits[$key],$quantity[$key]);
+   echo $key."の合計価格は".calculatePrice($fruits[$key],$quantity[$key])."円です";
    echo "<br>";
-
 }
 
     //step3
