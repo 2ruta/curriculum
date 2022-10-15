@@ -8,22 +8,22 @@
  
   <title>3章チェックテスト</title>
 </head>
-
+<body>
+<div class="container">
+<form action="question.php" method="post">
 <?php
-$my_name = $_POST['my_name'];
-
-//POST送信で送られてきた名前を受け取って変数を作成
+$my_name=$_POST['my_name'];
+?>
+<!--//POST送信で送られてきた名前を受け取って変数を作成
 
 //①画像を参考に問題文の選択肢の配列を作成してください。
 
 //② ①で作成した、配列から正解の選択肢の変数を作成してください
-
-?>
+-->
 
 <p>お疲れ様です<!--POST通信で送られてきた名前を出力--><?php echo $my_name; ?>さん</p>
 <!--フォームの作成 通信はPOST通信で-->
-<br>
-<form action="question.php" method="post">
+
 <h2>①ネットワークのポート番号は何番？</h2>
 
 
@@ -52,5 +52,6 @@ $my_name = $_POST['my_name'];
 <input type="submit" value="回答する" />
 
 </form>
-
+</div>
+</body>
 </html>

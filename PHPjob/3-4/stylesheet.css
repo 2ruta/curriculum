@@ -3,6 +3,15 @@ body{
     margin: 0 auto;
 }
 
+.container{
+    width: 800px;
+}
+
+.mondai{
+    display: flex;
+    justify-content: center;
+}
+
 
 header{
     display: flex;
@@ -16,7 +25,18 @@ header{
     border-color: white;
 }
 
+p{
+    color: white;
+    text-align: center;
+}
+
 h1{
+    color: white;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    margin: 0 auto;
+}
+
+h2{
     color: white;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
     margin: 0 auto;
