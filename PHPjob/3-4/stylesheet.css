@@ -1,0 +1,24 @@
+body{
+    background-color: #808080;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    height: 200px;
+    width: 100%;
+    padding: auto;
+    margin: 0 0 30 0;
+    border:5px ;
+    border-color: white;
+}
+
+h1{
+    color: white;
+}
+
+hr{
+    height: 4px;
+    background-color: white;
+    color: white;
+}
