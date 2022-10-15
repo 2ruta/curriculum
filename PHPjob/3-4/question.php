@@ -1,4 +1,10 @@
+
+<p>私の名前は、<?php echo $my_name; ?></p>
+<p>私のパスワードは、<?php echo $password; ?></p
+
 <?php
+$my_name = $_GET['my_name'];
+$password = $_GET['password'];
 //POST送信で送られてきた名前を受け取って変数を作成
 
 //①画像を参考に問題文の選択肢の配列を作成してください。
